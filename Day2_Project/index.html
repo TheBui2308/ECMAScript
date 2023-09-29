@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="products"></div>
+    <!-- 
+      Yêu cầu nếu mảng products có sản phẩm thì in ra danh sách sản phẩm có tên, giá, mô tả
+      Nếu không có sản phẩm nào thì in ra "Không tìm thấy sản phẩm nào!"
+     -->
+
+    <script>
+      let productsElement = document.getElementById("products");
+      let content = "";
+      // Add sản phẩm vào content
+      // Gợi ý:
+      // Cách 1: sử dụng for và if else
+      // Cách 2: sử dụng forEach hoặc map và if else
+
+      productsElement.innerHTML = content;
+
+      const products = [
+        {
+          id: "122",
+          name: "San pham A",
+          price: 200,
+        },
+        {
+          id: "222",
+          name: "San pham B",
+          price: 300,
+        },
+        {
+          id: "333",
+          name: "San pham C",
+          price: 400,
+        },
+      ];
+    </script>
+  </body>
+</html>
